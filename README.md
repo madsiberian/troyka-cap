@@ -4,4 +4,4 @@ Provides access to [TroykaCap](https://amperka.com/products/raspberry-troyka-cap
 
 This library is [TroykaCapPython](https://github.com/amperka/TroykaCapPython) ported to .net
 
-Requires .net standard 2.1
+Requires .net standard 2.0

@@ -1,11 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netstandard2.1</TargetFramework>
+        <TargetFramework>netstandard2.0</TargetFramework>
         <Nullable>enable</Nullable>
         <Title>Troyka Cap</Title>
         <Authors>Ivan Grishulenko</Authors>
         <Copyright>(c) 2020 Ivan Grishulenko</Copyright>
+        <LangVersion>8</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
