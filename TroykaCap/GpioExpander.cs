@@ -126,7 +126,7 @@ namespace TroykaCap
 
         private int Swap(int data)
         {
-            return ((0xFF & data) << 8) + ((0xFF00 & data) >> 8);
+            return ((0xFF & data) << 8) | (0xFF & (data >> 8));
         }
     }
 }
